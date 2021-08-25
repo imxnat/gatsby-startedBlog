@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+  }
+  .heading {
+    color: rebeccapurple;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .nav-panel{
+    background-color: rebeccapurple;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .site-title{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 48px;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-right: 48px;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+  }
+ 
+  .nav-link-text {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  .nav-link-text:hover{
+    color: rebeccapurple;
+    background-color: rgb(217, 203, 231);
+    padding: 10px;
+    border-radius: 8px;
+  }
